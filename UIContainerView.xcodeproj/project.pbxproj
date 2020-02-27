@@ -12,6 +12,7 @@
 		CE9517122407DD270043E7E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9517102407DD270043E7E1 /* Main.storyboard */; };
 		CE9517142407DD2B0043E7E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9517132407DD2B0043E7E1 /* Assets.xcassets */; };
 		CE9517172407DD2B0043E7E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9517152407DD2B0043E7E1 /* LaunchScreen.storyboard */; };
+		CE95171F2407DEFD0043E7E1 /* DetailViewControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE95171E2407DEFD0043E7E1 /* DetailViewControler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		CE9517132407DD2B0043E7E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE9517162407DD2B0043E7E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE9517182407DD2B0043E7E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE95171E2407DEFD0043E7E1 /* DetailViewControler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewControler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				CE95170C2407DD270043E7E1 /* AppDelegate.swift */,
 				CE95170E2407DD270043E7E1 /* ViewController.swift */,
 				CE9517102407DD270043E7E1 /* Main.storyboard */,
+				CE95171E2407DEFD0043E7E1 /* DetailViewControler.swift */,
 				CE9517132407DD2B0043E7E1 /* Assets.xcassets */,
 				CE9517152407DD2B0043E7E1 /* LaunchScreen.storyboard */,
 				CE9517182407DD2B0043E7E1 /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE95170F2407DD270043E7E1 /* ViewController.swift in Sources */,
+				CE95171F2407DEFD0043E7E1 /* DetailViewControler.swift in Sources */,
 				CE95170D2407DD270043E7E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,7 +296,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulkoart.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -310,7 +314,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ulkoart.UIContainerView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
